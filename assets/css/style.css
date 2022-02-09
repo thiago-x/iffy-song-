@@ -115,6 +115,10 @@ audio::-webkit-media-controls-timeline { display:inline-flex;}    audio::-webkit
     nav i{
         font-size: 30px;
     }
+    .song{
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 
 
