@@ -56,10 +56,10 @@ p{
     font-family: 'Courier New', Courier, monospace;
     font-size: 2rem;
     font-weight: bold;
-    border-bottom: 2px solid #fff;
     width: 400px;
     text-align: center;
-    margin: 20px 0;
+    margin: 10px 0;
+    margin-bottom: 0;
     transition: width 1s;
 }
 
@@ -81,6 +81,23 @@ nav i{
 nav i:hover{
     color: #FFD800;
 }
+
+.song{
+    position: absolute;
+    bottom: 0;
+    /* left: 50%;
+    transform: translateX(-50%); */
+    bottom: 25px;
+    left: 25px;
+}
+
+.song audio{
+    width: 100px;
+    height: 20px;
+}
+
+audio::-webkit-media-controls-timeline { display:inline-flex;}    audio::-webkit-media-controls-panel {background-color: #FFD800}
+
 
 @media(max-width:650px){
     .logo-img{
